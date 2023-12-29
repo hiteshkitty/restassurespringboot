@@ -1,0 +1,26 @@
+{
+  "transactionId": "88370504-d4f1-4801-9da1-6a80d64d1c17",
+  "settlementId": "482474a0729f10011bcc43b806350000",
+  "customerId": "PoolFX Supply LLC",
+  "startDate": "1483257600000",
+  "endDate": "1924934400000",
+  "page": 37,
+  "count": 100,
+  "totalPages": 52,
+  "companyIds": [
+    "PFX",
+    "CYP"
+  ],
+  "products": [
+    "EmploymentVerification",
+    "WagePayments"
+  ],
+ 
+  "orgUnitIdByCompanyId": {
+    "SCPh": "89704879-4023-4b21-a786-40d3c1317ea7",
+    
+    "CYP": "a83e36e6-745a-40e4-afa8-fb290ddfc5b9"
+  },
+  "flow": "PAYROLL_SHADOW_USA",
+  "payrollHistoryParentTransactionId": null
+}

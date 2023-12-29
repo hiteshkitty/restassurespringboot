@@ -1,0 +1,128 @@
+{
+  "name": "PayrollDataCollectionRequest",
+  "type": "record",
+  "namespace": "com.adp.smartconnect.library.sourcedata",
+  "fields": [
+    {
+      "name": "transactionId",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "settlementId",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "customerId",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "startDate",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "endDate",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "page",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null
+    },
+    {
+      "name": "count",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null
+    },
+    {
+      "name": "totalPages",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null
+    },
+    {
+      "name": "companyIds",
+      "type": [
+        "null",
+        { "type": "array", "items": "string", "default": [] }
+      ],
+      "default": null
+    },
+    {
+          "name": "products",
+          "type": [
+            "null",
+            { "type": "array", "items": "string", "default": [] }
+          ],
+          "default": null
+        },
+    {
+      "name": "featureFlags",
+      "type": [
+        "null",
+        {
+          "type": "map",
+          "values": "boolean",
+          "default": {}
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "orgUnitIdByCompanyId",
+      "type": [
+        "null",
+        {
+          "type": "map",
+          "values": "string",
+          "default": {}
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "flow",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "payrollHistoryParentTransactionId",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    }
+  ],
+  "doc": ""
+}
